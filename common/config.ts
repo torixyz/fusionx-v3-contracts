@@ -1,4 +1,13 @@
 export const configs = {
+  endurance: {
+    WNATIVE: '0x85119527CF38f6cCf7b1b8f8FAD05145358Aaa81',
+    nativeCurrencyLabel: 'ACE',
+    v2Factory: '0x0000000000000000000000000000000000000000',
+    stableFactory: '0x0000000000000000000000000000000000000000',
+    stableInfo: '0x0000000000000000000000000000000000000000',
+    cake: '',
+    smartRouterHelper: '',
+  },
   eth: {
     WNATIVE: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     nativeCurrencyLabel: 'ETH',
