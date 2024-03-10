@@ -5,7 +5,7 @@ export const configs = {
     v2Factory: '0x0000000000000000000000000000000000000000',
     stableFactory: '0x0000000000000000000000000000000000000000',
     stableInfo: '0x0000000000000000000000000000000000000000',
-    cake: '',
+    cake: '0xe8DDa3E9c345bf659eba1B73ad115501340D86D8',
     smartRouterHelper: '',
   },
   eth: {

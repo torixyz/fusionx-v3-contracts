@@ -25,6 +25,7 @@ async function main() {
   )
   if (!pancakeV3PoolDeployer_address) {
     pancakeV3PoolDeployer = await PancakeV3PoolDeployer.deploy()
+    console.log(pancakeV3PoolDeployer)
 
     pancakeV3PoolDeployer_address = pancakeV3PoolDeployer.address
     console.log('pancakeV3PoolDeployer', pancakeV3PoolDeployer_address)
