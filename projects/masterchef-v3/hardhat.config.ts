@@ -11,6 +11,7 @@ import "hardhat-contract-sizer";
 import "solidity-coverage";
 import "solidity-docgen";
 import "dotenv/config";
+import { endurance } from "@pancakeswap/common/network";
 
 require("dotenv").config({ path: require("find-config")(".env") });
 
@@ -46,6 +47,7 @@ const config = {
     ...(process.env.KEY_MAINNET && { bscMainnet }),
     ...(process.env.KEY_GOERLI && { goerli }),
     ...(process.env.KEY_ETH && { eth }),
+    ...(process.env.KEY_ENDURANCE && { endurance }),
     // testnet: bscTestnet,
     // mainnet: bscMainnet,
   },

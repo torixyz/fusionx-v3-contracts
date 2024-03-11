@@ -5,6 +5,7 @@ import 'dotenv/config'
 import { NetworkUserConfig } from 'hardhat/types'
 import 'solidity-docgen';
 require('dotenv').config({ path: require('find-config')('.env') })
+import { endurance } from "@pancakeswap/common/network";
 
 const bscTestnet: NetworkUserConfig = {
   url: 'https://data-seed-prebsc-1-s1.binance.org:8545/',
@@ -40,6 +41,7 @@ const config: HardhatUserConfig = {
     ...(process.env.KEY_MAINNET && { bscMainnet }),
     ...(process.env.KEY_GOERLI && { goerli }),
     ...(process.env.KEY_ETH && { eth }),
+    ...(process.env.KEY_ENDURANCE && { endurance }),
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
