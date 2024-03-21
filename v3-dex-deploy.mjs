@@ -8,6 +8,7 @@ const networks = {
   bscTestnet: 'bscTestnet',
   hardhat: 'hardhat',
   endurance: 'endurance',
+  enduranceTestnet: 'enduranceTestnet',
 }
 
 let network = process.env.NETWORK

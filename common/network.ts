@@ -7,3 +7,9 @@ export const endurance: NetworkUserConfig = {
   gasPrice:5000000000
 }
 
+export const enduranceTestnet: NetworkUserConfig = {
+  url: 'https://abcdefg-myrpctestnet.fusionist.io',
+  chainId: 6480,
+  accounts: [process.env.KEY_ENDURANCE!],
+  gasPrice: 5000000000
+}

@@ -8,6 +8,15 @@ export const configs = {
     cake: '0xe8DDa3E9c345bf659eba1B73ad115501340D86D8',
     smartRouterHelper: '',
   },
+  enduranceTestnet: {
+    WNATIVE: '0x5Eb55Dadccc8858D11926dEB145F8c62f6a56af1',
+    nativeCurrencyLabel: 'ACE',
+    v2Factory: '0x0000000000000000000000000000000000000000',
+    stableFactory: '0x0000000000000000000000000000000000000000',
+    stableInfo: '0x0000000000000000000000000000000000000000',
+    cake: '0xe8DDa3E9c345bf659eba1B73ad115501340D86D8',
+    smartRouterHelper: '',
+  },
   eth: {
     WNATIVE: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     nativeCurrencyLabel: 'ETH',
